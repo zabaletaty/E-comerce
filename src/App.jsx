@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <HeaderScreen>
+      <HeaderScreen />
       <main className="main">
         <Routes>
           <Route path='/' element={<HomeScreen />} />
@@ -55,7 +55,6 @@ function App() {
         </Routes>
       </main>
       <FooterScreen />
-      </HeaderScreen>
     </div>
   )
 }
