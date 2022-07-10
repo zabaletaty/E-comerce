@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import ProductInfo from './ProductInfo'
 import SimilarProducts from './SimilarProducts'
 import SliderImgs from './SliderImgs'
-import './style/productScreen.css'
+import './style/ProductScreen.css'
 
 const ProductScreen = () => {
 
